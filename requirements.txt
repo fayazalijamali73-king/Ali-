@@ -1,22 +1,4 @@
-# Core Frameworks & Web Server
-pyTelegramBotAPI==4.12.0
-Flask==3.0.0
-
-# System Monitoring & Utilities
-psutil==5.9.8
-requests==2.31.0
-
-# Optional / Common Telegram & Bot Dependencies (frequently imported in user scripts)
-python-telegram-bot>=20.0
-aiogram>=3.0.0
-pyrogram>=2.0.0
-telethon>=1.30.0
 beautifulsoup4>=4.12.0
-Pillow>=10.0.0
-opencv-python>=4.8.0
-PyYAML>=6.0
-python-dotenv>=1.0.0
-python-dateutil>=2.8.2
-pandas>=2.0.0
-numpy>=1.24.0
-SQLAlchemy>=2.0.0
+requests>=2.31.0
+websocket-client>=1.6.0
+pyotp
