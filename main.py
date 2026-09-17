@@ -50,11 +50,11 @@ if not TOKEN:
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}/"
 
-OWNER_ID = 8671935587  # 👑 fayaz78613  — Owner Telegram ID
+OWNER_ID = 8613331850  # 👑 FAYAZJAMALI— Owner Telegram ID
 # Add trusted Telegram user IDs here to make them admins from the script.
 # Example: ADMIN_IDS = [123456789, 987654321]
 # OWNER_ID is always an admin and cannot be removed from the bot menu.
-ADMIN_IDS = [8671935587,8671935587]
+ADMIN_IDS = [8613331850,8613331850]
 BOT_USERNAME = "@jamaliking1Bot"
 DB_FILE = "data.json"
 SUPPORT_URL = "https://t.me/FAYAZJAMALI "
