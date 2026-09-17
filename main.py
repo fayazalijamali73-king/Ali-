@@ -321,7 +321,7 @@ def pkr_account_prompt(method):
 
 
 # Backward-compatible alias for existing callers.
-pak_account_prompt = pak_account_prompt
+pak_account_prompt = pkr_account_prompt
 
 # ==========================================
 # Premium Emoji Database
