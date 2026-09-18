@@ -50,11 +50,11 @@ if not TOKEN:
 BASE_URL = f"https://api.telegram.org/bot{TOKEN}"
 FILE_URL = f"https://api.telegram.org/file/bot{TOKEN}/"
 
-OWNER_ID = 8671935587  # 👑 fayaz78613  — Owner Telegram ID
+OWNER_ID = 8613331850  # 👑 FAYAZJAMALI — Owner Telegram ID
 # Add trusted Telegram user IDs here to make them admins from the script.
 # Example: ADMIN_IDS = [123456789, 987654321]
 # OWNER_ID is always an admin and cannot be removed from the bot menu.
-ADMIN_IDS = [8671935587,8671935587]
+ADMIN_IDS = [8613331850,8613331850]
 BOT_USERNAME = "@jamaliking1Bot"
 DB_FILE = "data.json"
 SUPPORT_URL = "https://t.me/FAYAZJAMALI "
@@ -321,7 +321,7 @@ def pkr_account_prompt(method):
 
 
 # Backward-compatible alias for existing callers.
-pak_account_prompt = pak_account_prompt
+pak_account_prompt = pkr_account_prompt
 
 # ==========================================
 # Premium Emoji Database
@@ -424,7 +424,7 @@ DEFAULT_CUSTOM_MESSAGES = {
             "to continue using the bot.\n"
             "━━━━━━━━━━━━\n"
             "💎 Premium OTP Service\n"
-            "⚔️ <b>DEVELOPED BY fayaz78613 </b> ⚔️"
+            "⚔️ <b>DEVELOPED BY FAYAZJAMALI </b> ⚔️"
         ),
         "buttons": []
     },
