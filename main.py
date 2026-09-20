@@ -40,8 +40,7 @@ logger = logging.getLogger(__name__)
 # write. .env file or Replit Secrets in BOT_TOKEN set.
 # Example: export BOT_TOKEN="your_token_yahan"
 # ─────────────────────────────────────────────────────────────────────────────
-TOKEN = os.getenv("BOT_TOKEN", "
-8959543875:AAFi7zMaZeIYEyGtr_GLpDNkjdbmKQnTSlE")  # Set BOT_TOKEN in the environment; never hardcode the token
+TOKEN = os.getenv("BOT_TOKEN", "8959543875:AAFi7zMaZeIYEyGtr_GLpDNkjdbmKQnTSlE")  # Set BOT_TOKEN in the environment; never hardcode the token
 if not TOKEN:
     raise RuntimeError(
         "❌ BOT_TOKEN environment variable is not set!\n"
